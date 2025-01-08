@@ -1,11 +1,9 @@
-HEAD
-HEAD
-HEAD
-# CreativeCoding
+# Creative Coding 
 
-# CC_final_gabi8468
-CC_final_gabi8468/main
-# CC_midterm_gabi8468
-CC_midterm_gabi8468/main
-# CC_sketch4_gabi8468
-CC_sketch4_gabi8468/main
+## Description 
+    A few P5.js projects I created in my Creative Coding course in Fall 2022.
+
+## Table of Contents 
+    1. Three Scenes
+    2. Diastic Generator
+    3. Hidden Figures Game

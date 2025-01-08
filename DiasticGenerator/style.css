@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Mauricio";
+  src: url('fonts/Mauricio.ttf');
+}
+
+@font-face {
+  font-family: "Fastest Font";
+  src: url('fonts/FastestFont.ttf');
+}
+
+@font-face {
+  font-family: "Classic Rock";
+  src: url('fonts/ClassicRock.ttf');
+}
+
+@font-face {
+  font-family: "Znikomit";
+  src: url('fonts/Znikomit.otf');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+
+h1 {
+  font-family: 'Mauricio'; 
+  font-size: 60px;
+  color: yellow;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #FFC107;
+  margin-bottom: 64px;
+  margin-top: 0;
+}
+
+.form-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Classic Rock';
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
+
+.highlight {
+  color: purple;
+  transition: color 1.5s;
+}
+
+#search-label {
+  font-family: 'Znikomit';
+  color: white;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+#submit {
+  font-family: 'Fastest Font';
+  color: blue;
+}
+
+#search {
+  font-family: 'Classic Rock';
+  padding: 8px;
+  min-width: 300px;
+  margin-bottom: 64px;
+}
+
+.popup {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  padding: 32px;
+  background-color: #333;
+  width: 80vw;
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+
+.popup p {
+  font-size: 12px;
+}
+
+.word-count {
+  font-size: 16px;
+}
+
+canvas {
+  display: block;
+}
+
+
+
